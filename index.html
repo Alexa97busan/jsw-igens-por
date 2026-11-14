@@ -60,6 +60,11 @@ section{padding:56px 0;position:relative}
 .hero-visual:hover{transform:rotate(0) translateY(-4px);box-shadow:0 6px 0 rgba(0,0,0,.08),0 30px 60px -20px rgba(0,0,0,.5)}
 .hero-visual img{width:100%;aspect-ratio:1/1;object-fit:cover}
 .hero-visual figcaption{font-size:13px;color:var(--sub);padding:8px 2px 2px}
+.maint{margin-top:36px}
+.maint-title{font-size:14px;color:#9fb4cf;margin:0 0 12px}
+.maint-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.maint-grid figure{margin:0}
+.maint-grid img,.maint-grid video{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;background:#fff;border-radius:6px}
 
 /* buttons & links */
 .btn{display:inline-flex;align-items:center;gap:6px;padding:12px 18px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:15px;box-shadow:0 3px 0 #064d93,0 10px 18px -8px rgba(10,102,194,.6);transition:transform .15s,box-shadow .15s,background .2s;border:0;cursor:pointer;font-family:inherit}
@@ -268,6 +273,21 @@ dialog.lb .wrapper{position:relative}
       <figcaption>그림 1. 자체 개발한 OBD2 대시보드 인터페이스 (속도계·RPM·차량 데이터 실시간 연동)</figcaption>
     </figure>
   </div>
+
+<div class="wrap maint" data-reveal>
+  <p class="maint-title">정비하는 나 · 실제 정비 현장 사진과 영상</p>
+  <div class="maint-grid">
+    <figure><img src="img/maint_01.jpg" alt="정비 작업 모습 1" loading="lazy" data-zoom></figure>
+    <figure><img src="img/maint_02.jpg" alt="정비 작업 모습 2" loading="lazy" data-zoom></figure>
+    <figure><img src="img/maint_03.jpg" alt="정비 작업 모습 3" loading="lazy" data-zoom></figure>
+    <figure><img src="img/maint_04.jpg" alt="정비 작업 모습 4" loading="lazy" data-zoom></figure>
+    <figure><img src="img/maint_05.jpg" alt="정비 작업 모습 5" loading="lazy" data-zoom></figure>
+    <figure><img src="img/maint_06.jpg" alt="정비 작업 모습 6" loading="lazy" data-zoom></figure>
+    <figure><img src="img/maint_07.jpg" alt="정비 작업 모습 7" loading="lazy" data-zoom></figure>
+    <figure><img src="img/maint_08.jpg" alt="정비 작업 모습 8" loading="lazy" data-zoom></figure>
+    <figure><video src="img/maint_video.mp4" poster="img/maint_video_poster.jpg" muted loop playsinline controls preload="metadata" aria-label="정비 작업 영상"></video></figure>
+  </div>
+</div>
 </div>
 
 <!-- 01 -->
